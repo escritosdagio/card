@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #fefefe;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  font-size: 1.1rem;
+}
+
+.contato a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.botao {
+  background-color: #e0e0e0;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.botao:hover {
+  background-color: #ccc;
+}
+
+footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #777;
+}
