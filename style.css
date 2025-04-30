@@ -1,4 +1,11 @@
 /* Página inicial - Estilo Vintage */
+@font-face {
+    font-family: 'Scholar';
+    src: url('caminho-para-a-fonte/Scholar.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background: url('caminho-para-sua-textura.jpg') repeat; /* Substitua pela sua imagem de textura */
